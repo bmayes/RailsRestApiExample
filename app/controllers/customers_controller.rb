@@ -63,10 +63,8 @@ class CustomersController < ApplicationController
 
     respond_to do |format|
 
-
-      @customer.firstname = params[:customer][:firstname] if not params[:customer][:firstname].blank?
-      @customer.lastname = params[:customer][:lastname]   if not params[:customer][:lastname].blank?
-
+      @customer.firstname = params[:customer][:firstname]
+      @customer.lastname =  params[:customer][:lastname]
 
       #if @customer.update_attributes(params[:customer])
       if @customer.save
