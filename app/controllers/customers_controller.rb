@@ -66,6 +66,9 @@ class CustomersController < ApplicationController
       @customer.firstname = params[:customer][:firstname]
       @customer.lastname =  params[:customer][:lastname]
 
+      #FOR-THE-EXAMPLE - the line commented below is the way the default scaffold updates attributes.
+      #                  you should explicitly define the fields you want to update then call save()
+
       #if @customer.update_attributes(params[:customer])
       if @customer.save
         format.html { redirect_to @customer, notice: 'Customer was successfully updated.' }
@@ -73,6 +76,11 @@ class CustomersController < ApplicationController
       else
         format.html { render action: "edit" }
         #format.json { render json: {:errors => @customer.errors}, status: :unprocessable_entity }
+
+        #FOR-THE-EXAMPLE - the commented line 78 above is the way the default scaffold returns errors.
+        #                   you should use a line like below to get the Rails "magic" for error messages
+        #                   easily being surfaced into forms.
+
         format.json { render :json => {errors: @customer.errors.full_messages}.to_json, :status => :unprocessable_entity}
       end
     end
