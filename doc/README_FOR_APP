@@ -2,3 +2,7 @@ Use this README file to introduce your application and point to useful places in
 Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
 
 Here's a change so I can test a pull request.
+
+Anotehr change to merge.
+
+Testing to changes in one pull request.
