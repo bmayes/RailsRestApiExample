@@ -1,8 +1,6 @@
 TestRest::Application.routes.draw do
   resources :customers
-
-
-  resources :posts
+  resources :comments
 
 
   # The priority is based upon order of creation:
