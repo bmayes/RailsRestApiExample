@@ -2,7 +2,7 @@ TestRest::Application.routes.draw do
   resources :customers
   resources :comments
 
-
+  # hello comment.
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
