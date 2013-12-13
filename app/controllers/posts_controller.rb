@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
+  # another comment
   def index
     @posts = Post.all
 
