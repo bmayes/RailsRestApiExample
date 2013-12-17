@@ -5,6 +5,9 @@ TestRest::Application.routes.draw do
   # hello comment.
   # The priority is based upon order of creation:
   # first created -> highest priority.
+  # Well sh00t.......
+  # Nice.
+  # One more.
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
