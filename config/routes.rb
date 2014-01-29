@@ -8,6 +8,7 @@ TestRest::Application.routes.draw do
   # Well sh00t.......
   # Nice.
   # One more.
+  # stuff with the thing.
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
