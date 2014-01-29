@@ -10,6 +10,7 @@ TestRest::Application.routes.draw do
   # One more.
   # stuff with the thing.
   # another.
+  # things with this.
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
