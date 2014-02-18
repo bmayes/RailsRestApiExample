@@ -18,6 +18,7 @@ RSpec.configure do |config|
   # config.mock_with :rr
   # fake a change.
   # comment 2
+  # this is not a test.
 
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
